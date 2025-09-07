@@ -1,0 +1,15 @@
+# AI 교육 전문가 팀 - Streamlit 웹 애플리케이션 의존성
+
+# 웹 애플리케이션 프레임워크
+streamlit>=1.28.0,<2.0.0
+
+# Google Generative AI SDK
+google-generativeai>=0.3.0,<1.0.0
+
+# 추가 의존성 (streamlit이 내부적으로 사용)
+altair>=4.0.0,<6.0.0
+pandas>=1.5.0,<3.0.0
+numpy>=1.21.0,<2.0.0
+pyarrow>=5.0.0,<15.0.0
+tornado>=6.0.0,<7.0.0
+typing-extensions>=4.0.0,<5.0.0
