@@ -16,7 +16,7 @@ AI 교육 전문가 팀 - Streamlit 웹 애플리케이션
 3. 이준호 학습 경로 전문가: 맞춤형 학습 계획과 자원 추천
 
 사용 방법:
-1. Google AI Studio에서 API 키 발급 (https://aistudio.google.com)
+1. Google AI Studio에서 API 키 발급 (https://aistudio.google.com/app/apikey)
 2. 사이드바에 API 키 입력
 3. 원하는 서비스 선택
 4. 필요한 정보 입력
@@ -826,7 +826,7 @@ def main():
         # API 키가 입력되지 않은 경우 경고 메시지 표시
         if not api_key:
             st.warning("API 키를 입력해주세요.")
-            st.info("💡 Google AI Studio (https://aistudio.google.com)에서 무료로 API 키를 발급받을 수 있습니다.")
+            st.info("💡 Google AI Studio (https://aistudio.google.com/app/apikey)에서 무료로 API 키를 발급받을 수 있습니다.")
             st.stop()
         
         # API 키 유효성 검사
@@ -1251,4 +1251,5 @@ def main():
 
 # 스크립트가 직접 실행될 때만 main() 함수 실행
 if __name__ == "__main__":
+
     main()
